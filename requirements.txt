@@ -1,0 +1,2 @@
+impacket
+pyasn1
