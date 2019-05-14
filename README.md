@@ -28,10 +28,10 @@ optional arguments:
 Example:
 ```
 $ python ticket_converter.py ticket.ccache ticket.kirbi
-Converting kirbi => ccache
+Converting ccache => kirbi
 ```
 
 ```
 $ python ticket_converter.py ticket.kirbi ticket.ccache
-Converting ccache => kirbi
+Converting kirbi => ccache
 ```

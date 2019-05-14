@@ -43,10 +43,10 @@ def main():
     args = parse_args()
 
     if is_kirbi_file(args.input_file):
-        print('Converting ccache => kirbi')
+        print('Converting kirbi => ccache')
         convert_kirbi_to_ccache(args.input_file, args.output_file)
     elif is_ccache_file(args.input_file):
-        print('Converting kirbi => ccache')
+        print('Converting ccache => kirbi')
         convert_ccache_to_kirbi(args.input_file, args.output_file)
     else:
         print('Unknown file format')
