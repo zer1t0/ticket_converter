@@ -1,3 +1,7 @@
+# This script is no longer supported
+
+Use the impacket example [ticketConverter.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/ticketConverter.py).
+
 # ticket_converter
 A little tool to convert ccache tickets into kirbi (KRB-CRED) and vice versa based on impacket.
 
